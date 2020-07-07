@@ -1,4 +1,4 @@
-{% set version = "0.3.6" %}
+{% set version = "0.3.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/disk.frame_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/disk.frame/disk.frame_{{ version }}.tar.gz
-  sha256: 444656205694afb7186804334972816faf7c38c197a7bb62ef86fd7eb985d787
+  sha256: d6d99da6697ab08b768aee0199d275b8a26db0b6a6b8eb7d447512e0a555e989
 
 build:
   merge_build_host: true  # [win]
