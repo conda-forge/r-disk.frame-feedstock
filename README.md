@@ -3,6 +3,7 @@ About r-disk.frame-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-disk.frame-feedstock/blob/main/LICENSE.txt)
 
+
 About r-disk.frame
 ------------------
 
@@ -11,6 +12,7 @@ Home: https://diskframe.com
 Package license: MIT
 
 Summary: A disk-based data manipulation tool for working with large-than-RAM datasets. Aims to lower the barrier-to-entry for manipulating large datasets by adhering closely to popular and familiar data manipulation paradigms like dplyr verbs and data.table syntax.
+
 About r-disk.frame
 ------------------
 
